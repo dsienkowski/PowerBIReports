@@ -1,0 +1,19 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-US
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_QueryOrder = ["Table"]
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBIDesktopVersion = 2.126.927.0 (24.02)
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table Table
+ref table DateTableTemplate_33bbc3cd-78b0-45f7-8883-987044e7695a
+
